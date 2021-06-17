@@ -20,7 +20,7 @@ You can also run this script by using `node main.js --<args>`
 
 ### Example
 ```
-node main.js --network="mainnet" --extragas=260 --buyeraddy="0xa3dC6a49C6DFbd963ee270447adb8ad43d540890" --infura="<apikey>" --url="https://opensea.io/assets/0xec9c519d49856fd2f8133a0741b4dbe002ce211b/2197" --mnemonic="december hedgehog income today portion acquire betray spring cry wheel practice coyote rebel gas climb" startTimeUTC="9:21"
+node main.js --network="mainnet" --extragas=260 --buyeraddy="0xa3dC6a49C6DFbd963ee270447adb8ad43d540890" --infura="<apikey>" --url="https://opensea.io/assets/0xec9c519d49856fd2f8133a0741b4dbe002ce211b/2197" --mnemonic="december hedgehog income today portion acquire betray spring cry wheel practice coyote rebel gas climb" --startTimeUTC="9:21"
 ```
 
 ### Colab
