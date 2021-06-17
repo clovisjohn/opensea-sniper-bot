@@ -73,7 +73,7 @@ seaport.gasPriceAddition = new BigNumber(extragas);  // add extra gas to current
 var [asset_contract_address, token_id] = helpers.parse_url(opensea_link) // extract asset contract address and token id from the opensea likn
 
 async function main() {
-  console.log("Launched);
+  console.log("Launched");
 	const order = await seaport.api.getOrder({   // Extracting order to fulfill
 			asset_contract_address,
 			token_id,
