@@ -24,6 +24,6 @@ node main.js --network="mainnet" --extragas=260 --buyeraddy="0xa3dC6a49C6DFbd963
 ```
 
 ### Colab
-https://githubtocolab.com/clovisjohn/opensea-sniper-bot/blob/main/notebook.ipynb
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/clovisjohn/opensea-sniper-bot/blob/main/notebook.ipynb)
 
 
