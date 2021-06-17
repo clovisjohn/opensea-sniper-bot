@@ -21,9 +21,9 @@ const isInfura = !!args.infura;
 const NETWORK = args.network;
 const API_KEY = process.env.API_KEY || ""; // API key is optional but useful if you're doing a high volume of requests.
 
-if (!MNEMONIC || !NODE_API_KEY || !NETWORK) {
+if (!MNEMONIC || !NODE_API_KEY || !NETWORK || !opensea_link || !accountAddress) {
   console.error(
-    "Please set a mnemonic, Alchemy/Infura key, network, API key,"
+    "Missing arguments"
   );
   return;
 }
