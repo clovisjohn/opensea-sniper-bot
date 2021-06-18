@@ -29,10 +29,12 @@ if (!MNEMONIC || !NODE_API_KEY || !NETWORK || !opensea_link || !accountAddress) 
 }
 
 if (!args.startTimeUTC) {
-  [hour,minute]=[0,0]
+  [hour,minute,second]=[0,0,0]
 } else {
   hour = parseInt(args.startTimeUTC.replace(/:.*/, ""))
-  minute = parseInt(args.startTimeUTC.replace(/.*:/, ""))
+  re = /:(\d+):/
+  minute = parseInt((re.exec(args.startTimeUTC))[1]);
+  second = parseInt(args.startTimeUTC.replace(/.*:/, ""));
 }
 
 if (!args.extragas)
@@ -91,7 +93,7 @@ async function main() {
 
 //Setting up a timeout
 var now = new Date()
-var t = new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour, minute, 0, 10).getTime() 
+var t = new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour, minute, second, 10).getTime() 
 currentTime = new Date().getTime()
 timeo = t - Date.now();
 setTimeout(main,Math.max(timeo,0))
