@@ -94,5 +94,5 @@ var now = new Date()
 var t = new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour, minute, 0, 10).getTime() 
 currentTime = new Date().getTime()
 timeo = t - Date.now();
-setTimeout(main,timeo)
+setTimeout(main,Math.max(timeo,0))
 
