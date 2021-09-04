@@ -12,7 +12,7 @@ const RPCSubprovider = require("web3-provider-engine/subproviders/rpc");
 const Web3ProviderEngine = require("web3-provider-engine");
 
 
-const extragas = args.extragas
+var extragas = args.extragas
 const accountAddress = args.buyeraddy
 const opensea_link = args.url
 const MNEMONIC = args.mnemonic;
