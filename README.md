@@ -1,11 +1,13 @@
 # opensea-sniper-bot
 
  # ❗❗❗❗ 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 ❗❗❗❗
- ```
-This is the only official version of the bot (oldest one)
+
+[THIS](https://github.com/clovisjohn/opensea-sniper-bot/) is the only official version of the bot
 
 I can only ensure the integrity of this version. If you use any fork, it will be at your own risks
-```
+
+-clovisjohn
+
 
 
 ## Installation
