@@ -1,6 +1,6 @@
 # opensea-sniper-bot
 
- # ❗❗❗❗ 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 ❗❗❗❗
+ # ❗❗❗❗ **WARNING** ❗❗❗❗
 
 [THIS](https://github.com/clovisjohn/opensea-sniper-bot/) is the only official version of the bot
 
